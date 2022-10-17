@@ -1,0 +1,1285 @@
+body, html{
+    padding: 0;
+    margin: 0;
+    scroll-behavior: smooth;
+}
+#header{
+    background: linear-gradient(rgba(0,0,0,0.7), rgba(0,0,0,0.7)), url('./images/pexels-luis-gomes-546819.jpg');
+    height: 100vh;
+    width: 100%;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.logo{
+    display: flex;
+    color: white;
+    align-items: center;
+margin: 0 100px;
+height: max-content;
+animation-name: example2;
+animation-duration: 6s;
+transition: 1s;
+}
+.logo h1{
+    font-size: 90px;
+    font-style: italic;
+    margin-top: 20px;
+}
+.logo p{
+    margin-top: 10px;
+    font-size: 55px;
+    letter-spacing: 0.2rem;
+font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.nav-menu{
+    margin-right: 12%;
+    
+}
+.nav-menu a{
+    letter-spacing: 0.05em;
+    animation-name: slide-in;
+    animation-duration: 2s;
+    transition: 5s;
+    animation-name: example2;
+    animation-duration: 6s;
+    transition: 1s; 
+text-decoration: none;
+color: white;
+font-size: 20px;
+margin-right: 80px;
+font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.nav-menu a:hover{
+    color: rgb(43, 43, 255);
+    transition: 0.5s;
+}
+.hamburger{
+    cursor: pointer;
+ margin-bottom: 20px;
+ padding-right: 5%;
+ color: white;
+}
+
+.center-texts{
+    text-align: center;
+    color: white;
+    margin-top: 7%;
+
+}
+.center-texts p{
+    animation-name: example2;
+    animation-duration: 6s;
+    transition: 1s;
+      font-size: 70px;
+    margin-bottom: 0;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+
+}
+.center-texts h4{
+    margin-top: 10px;
+font-size: 40px;
+opacity: 0.6;
+animation-name: slide-in;
+animation-duration: 2s;
+transition: 5s;
+animation-name: example2;
+animation-duration: 6s;
+transition: 1s; 
+}
+.icons{
+    padding: 0.5%;
+}
+.icons i{
+font-size: 40px;
+margin-right: 40px;
+cursor: pointer;
+}
+
+
+                  /* about */
+#about{
+background-color: #292C36;
+    height: 100vh;
+}
+.about{
+    padding-top: 10%;
+}
+.about img{
+width: 500px;
+position: absolute;
+border-radius: 50px;
+left: 270px;
+}
+.about p{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+font-weight: 600;
+font-size: 26px;
+text-align: center;
+letter-spacing: 0.1em;
+color: rgb(43, 43, 255);
+}
+.about h5{
+    font-size: 25px;
+color: white;
+opacity: 0.7;
+text-align: start;
+
+font-family: Verdana, Geneva, Tahoma, sans-serif;
+margin-left: 780px;
+margin-top: 50px;
+width: fit-content;
+
+}
+
+/* SKILLS */
+#skills{
+    background-color: #292C36;
+height: 100vh;
+}
+.skills{
+    text-align: center;
+    padding: 4%;
+}
+.skills p{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: 600;
+    font-size: 26px;
+    text-align: center;
+    letter-spacing: 0.1em;
+    color: rgb(43, 43, 255);
+    margin-bottom: 0;
+}
+.skills h3{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+font-size: 40px;
+letter-spacing: 0.1em;
+margin-top: 10px;
+margin-bottom: 10px;
+color: white;
+animation-name: example2;
+animation-duration: 10s;
+transition: 1s;
+}
+.skills-2{
+    display: flex;
+    justify-content: center;
+    border: 1px solid;
+    border-radius: 12px;
+    width: fit-content;
+height: 200px;
+width: 500px;
+margin: 0 auto;
+background-color: #31374b;
+
+}
+.skills-2 img{
+    width: 66px;
+    height: 66px;
+    border-radius: 8px;
+    margin: 20px 10px 20px 0;
+    height: fit-content;
+}
+.skills-2 p{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: white;
+    margin: 20px 150px 0 0;
+    line-height: 1.3em;
+    font-size: 24px;
+    height: fit-content;
+} 
+.texts{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: white;
+    line-height: 27px;
+    position: absolute;
+    font-size: 16px;
+    top: 2250px;
+    right: 740px;
+    width: 432px;
+height: 54px;
+opacity: 0.6;
+}
+.skillspic{
+display: flex;
+justify-content: center;
+   padding-top: 5%;
+}
+.skillspic img{
+width: 300px;
+margin-right: 80px;
+}
+
+
+/* PROJECTS */
+#projects{
+    background-color: #292C36;
+    height: 100vh;
+}
+.projects-text{
+    padding: 3%;
+
+}
+.projects-text p{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+font-weight: 600;
+margin-top: 0;
+margin-bottom: 10px;
+font-size: 26px;
+text-align: center;
+letter-spacing: 0.1em;
+color: rgb(43, 43, 255);
+}
+.projects-text h2{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 40px;
+    margin-top: 0;
+    letter-spacing: 0.1em;
+    margin-bottom: 10px;
+    color: white;
+    text-align: center;
+}
+.project-images{
+    display: flex;
+    justify-content: center;
+    height: fit-content;
+}
+.project-images img{
+    height: 230px;
+    border-radius: 15px;
+margin: 50px;    
+}
+.project-images2{
+    display: flex;
+    justify-content: center;
+    height: fit-content;
+}
+.project-images2 img{
+    height: 230px;
+    border-radius: 15px;
+margin: 50px;    
+}
+
+#contact{
+    background-color: #292C36;
+    height: 100vh;
+}
+.contact{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-align: center;
+    border: 1px solid;
+    width: 500px;
+    height: 170px;
+    border-radius: 15px;
+    background-color: #31374b;
+    margin:0 auto ;
+}
+.contact p{
+    color: white;
+    font-size: 26px;
+}
+.button1{
+    cursor: pointer;
+    width: 150px;
+    height: 50px; 
+    border-color: white;
+    background-color: rgb(43, 43, 255);
+    border-radius: 10px;
+    border: none;
+    color: white;
+}
+.contact-texts{
+    text-align: center;
+    padding-top: 10%;
+}
+.contact-texts h1{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+font-weight: 600;
+margin-top: 0;
+margin-bottom: 50px;
+font-size: 26px;
+text-align: center;
+letter-spacing: 0.1em;
+color: rgb(43, 43, 255);
+}
+.footer{
+    background-color: #31374b;
+text-align: center;
+color: white;
+}
+.footer h2{
+    margin: 0;
+}
+.footer h5{
+margin: 10px 0 0 0;
+}
+.image1{
+    border: 4px red solid;
+}
+.image2{
+    border: 4px yellow solid;
+}
+.image3{
+    border: 4px blue solid;
+}
+.image4{
+    border: 4px rgb(11, 255, 11) solid;
+}
+.image5{
+    border: 4px orange solid;
+}
+.projects-text h2{
+    animation-name: example2;
+    animation-duration: 10s;
+    transition: 1s;
+}
+.fa-facebook{
+    animation-name: slide-in;
+    animation-duration: 2s;
+    transition: 5s;
+    animation-name: example2;
+    animation-duration: 6s;
+    transition: 1s;
+}
+.fa-twitter{
+    animation-name: slide-in;
+    animation-duration: 2s;
+    transition: 5s;
+    animation-name: example2;
+    animation-duration: 6s;
+    transition: 1s;
+}
+.fa-square-instagram{
+    animation-name: slide-in;
+    animation-duration: 2s;
+    transition: 5s;
+    animation-name: example2;
+    animation-duration: 6s;
+    transition: 1s;
+}
+.hamburger{
+    animation-name: slide-in;
+    animation-duration: 2s;
+    transition: 5s;
+    animation-name: example2;
+    animation-duration: 6s;
+    transition: 1s; 
+}
+
+
+
+
+
+@keyframes slide-in {
+from{left: -200%;}
+    to {left: 0%;}
+  }
+
+
+@keyframes example2 {
+    0%   {color: red;}
+    25%  {color: yellow;}
+    50%  {color: blue;}
+    75%{color: green;}
+    100% {color: rgb(255, 255, 255);}
+  }
+  @keyframes example {
+    from {background-color: red;}
+    to {background-color: yellow;}
+  }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media  (min-width:280px) and (max-width:319px){
+.logo{
+    margin-left: 10px;
+}
+
+    .logo h1{
+        font-size: 36px;
+    }
+    .logo p{
+        margin-top: 20px;
+        font-size: 20px;
+    }
+    .nav-menu a{
+font-size: 14px;
+    }
+.center-texts{
+    padding-top: 35%;
+}
+    .center-texts p{
+        font-size: 28px;
+        margin-bottom: 0;
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+    
+    }
+    .center-texts h4{
+    font-size: 24px;
+    opacity: 0.6;
+    }
+    .icons{
+        padding: 5%;
+    }
+    .icons i{
+    font-size: 24px;
+    margin-right: 20px;
+    }
+
+        .about p{
+            margin-right: 20px;
+            margin-bottom: 20%;
+        }
+        .about img{
+         display: none;
+            }
+       
+        .about h5{
+            font-size: 20px;
+             margin-left: 10px;
+          }
+     
+        .skills h3{
+            font-size: 24px;
+        }
+        .skills-2{
+            width: fit-content;
+        height: 110px;
+        width: 260px;
+        margin: 0 auto;
+        background-color: #31374b;
+        
+        }
+        .skillspic{
+            padding-top: 3%;
+            display: block;
+            text-align: center;
+        }
+        .skillspic img{
+            width: 78px;
+            margin: 30px;
+        }
+        .skills-2 img{
+            margin: 20px 10px 0 0;
+        }
+        .skills-2 p{
+            margin: 20px 20px 0 0;
+            font-size: 20px;
+          
+        } 
+        .texts{
+        display: none;
+        }
+        #projects{
+            height: fit-content;
+        }
+        .projects-text h2{
+            font-size: 24px;
+        }
+        .project-images{
+            text-align: center;
+            display: block;
+            justify-content: center;
+            height: fit-content;
+        }
+        .project-images img{
+            height: 130px;
+            border-radius: 15px;
+        margin: 10px;    
+        }
+        .project-images2{
+            text-align: center;
+            display: block;
+            height: fit-content;
+        }
+        .project-images2 img{
+           
+            height: 130px;
+            border-radius: 10px;
+        margin: 10px;    
+        }
+        .contact{
+            width: 250px;
+            height: 120px;
+        }
+        .contact p{
+            font-size: 15px;
+        }
+        .button1{
+            width: 120px;
+            height: 50px; 
+        }
+        .contact-texts{
+           
+            padding-top: 70%;
+        }
+        .contact-texts h1{
+        margin-bottom: 30px;
+        }
+        .logo2{
+            margin-top:120%;
+            height: 35px;
+        }
+        .logo2 h2{
+            font-size: 40px;
+        }
+        .logo2 h3{
+            font-size: 20px;
+        }
+       
+     
+        
+
+    
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media  (min-width:320px) and (max-width:480px){
+
+
+    .logo{
+        margin-left: 10px;
+    }
+    .logo h1{
+        font-size: 36px;
+    }
+    .logo p{
+        font-size: 20px;
+        margin-top: 20px;
+    }
+    .nav-menu a{
+        font-size: 14px;
+    }
+    .center-texts{
+        padding-top: 28%;
+    }
+        .center-texts p{
+            font-size: 34px;
+            margin-bottom: 0;
+            font-family: Verdana, Geneva, Tahoma, sans-serif;
+        
+        }
+        .center-texts h4{
+        font-size: 25px;
+        opacity: 0.6;
+        }
+        .icons{
+            padding: 5%;
+        }
+        .icons i{
+        font-size: 26px;
+        margin-right: 20px;
+        }
+        
+        .about p{
+            margin-right: 20px;
+            margin-bottom: 20%;
+        }
+        .about img{
+         display: none;
+            }
+       
+        .about h5{
+            font-size: 26px;
+             margin-left: 10px;
+          }
+        .skills h3{
+            font-size: 24px;
+        }
+        .skills-2{
+            width: fit-content;
+        height: 110px;
+        width: 260px;
+        margin: 0 auto;
+        background-color: #31374b;
+        
+        }
+        .skillspic{
+            padding-top: 3%;
+            display: block;
+            text-align: center;
+        }
+        .skillspic img{
+            width: 100px;
+            margin: 30px;
+        }
+        .skills-2 img{
+            margin: 20px 10px 0 0;
+        }
+        .skills-2 p{
+            margin: 20px 20px 0 0;
+            font-size: 20px;
+          
+        } 
+        .texts{
+        display: none;
+        }
+        #projects{
+            height: fit-content;
+        }
+        .projects-text h2{
+            font-size: 24px;
+        }
+        .project-images{
+            text-align: center;
+            display: block;
+            justify-content: center;
+            height: fit-content;
+        }
+        .project-images img{
+            height: 150px;
+            border-radius: 15px;
+        margin: 20px;    
+        }
+        .project-images2{
+            text-align: center;
+            display: block;
+            height: fit-content;
+        }
+        .project-images2 img{
+           
+            height: 150px;
+            border-radius: 10px;
+        margin: 20px;    
+        }
+        .contact{
+            width: 250px;
+            height: 120px;
+        }
+        .contact p{
+            font-size: 15px;
+        }
+        .button1{
+            width: 120px;
+            height: 50px; 
+        }
+        .contact-texts{
+            padding-top: 70%;
+        }
+        .contact-texts h1{
+        margin-bottom: 30px;
+        }
+        .logo2{
+            margin-top:120%;
+            height: 35px;
+        }
+        .logo2 h2{
+            font-size: 40px;
+        }
+        .logo2 h3{
+            font-size: 20px;
+        }
+       
+        .footer h5{
+            font-size: 15px;
+           
+        }
+
+       
+}
+    
+
+
+
+
+
+
+
+    
+@media  (min-width:481px) and (max-width:768px){
+
+    .logo{
+        margin-left: 20px;
+    }
+    .logo h1{
+        font-size: 40px;
+    }
+    .logo p{
+        font-size: 22px;
+        margin-top: 20px;
+    }
+    .nav-menu a{
+        font-size: 16px;
+    }
+    .center-texts{
+        padding-top: 15%;
+    }
+        .center-texts p{
+            font-size: 38px;
+            margin-bottom: 0;
+            font-family: Verdana, Geneva, Tahoma, sans-serif;
+        
+        }
+        .center-texts h4{
+        font-size: 28px;
+        opacity: 0.6;
+        }
+        .icons{
+            padding: 5%;
+        }
+        .icons i{
+        font-size: 30px;
+        margin-right: 20px;
+        }
+ 
+        .about p{
+            margin-right: 20px;
+            margin-bottom: 20%;
+        }
+        .about img{
+         display: none;
+            }
+       
+        .about h5{
+            font-size: 28px;
+             margin-left: 10px;
+          }
+        .skills h3{
+            font-size: 24px;
+        }
+        .skills-2{
+            width: fit-content;
+        height: 110px;
+        width: 260px;
+        margin: 0 auto;
+        background-color: #31374b;
+        
+        }
+        .skillspic{
+            padding-top: 3%;
+            display: block;
+            text-align: center;
+        }
+        .skillspic img{
+            width: 150px;
+            margin: 30px;
+        }
+        .skills-2 img{
+            margin: 20px 10px 0 0;
+        }
+        .skills-2 p{
+            margin: 20px 20px 0 0;
+            font-size: 20px;
+          
+        } 
+        .texts{
+        display: none;
+        }
+        #projects{
+            height: fit-content;
+        }
+        .projects-text h2{
+            font-size: 24px;
+        }
+        .project-images{
+            text-align: center;
+            display: block;
+            justify-content: center;
+            height: fit-content;
+        }
+        .project-images img{
+            height: 220px;
+            border-radius: 15px;
+        margin: 20px;    
+        }
+        .project-images2{
+            text-align: center;
+            display: block;
+            height: fit-content;
+        }
+        .project-images2 img{
+           
+            height: 220px;
+            border-radius: 10px;
+        margin: 20px;    
+        }
+      
+  
+}
+
+
+
+
+
+
+
+
+
+
+@media  (min-width:769px) and (max-width:1024px){
+
+    .hamburger{
+        display: none;
+        opacity: 0;
+    }
+    .logo{
+        margin-left: 20px;
+    }
+    .logo h1{
+        font-size: 46px;
+    }
+    .logo p{
+        font-size: 26px;
+        margin-top: 20px;
+    }
+    .nav-menu a{
+        font-size: 16px;
+        margin-right: 30px;
+    }
+    .nav-menu{
+        margin-right: 30px;
+    }
+    .center-texts{
+        padding-top: 5%;
+    }
+        .center-texts p{
+            font-size: 50px;
+            margin-bottom: 0;
+            font-family: Verdana, Geneva, Tahoma, sans-serif;
+        
+        }
+        .center-texts h4{
+        font-size: 34px;
+        opacity: 0.6;
+        }
+        .icons{
+            padding: 5%;
+        }
+        .icons i{
+        font-size: 35px;
+        margin-right: 40px;
+        }
+        .about{
+            padding-top: 7%;
+        }
+        .about img{
+            width: 400px;
+            border-radius: 15px;
+            left: 50px;
+            margin-top: 45px;
+            }
+            .about p{
+            padding-bottom: 5%;
+            }
+            .about h5{
+                font-size: 18px;
+            
+            margin-left: 460px;
+            margin-top: 90px;
+            
+            }
+            .skills h3{
+                font-size: 30px;
+            }
+            .skills-2{
+                width: fit-content;
+            height: 110px;
+            width: 350px;
+            margin: 0 auto;
+            background-color: #31374b;
+            
+            }
+            .skillspic{
+                padding-top: 3%;
+                display: block;
+                text-align: center;
+            }
+            .skillspic img{
+                width: 180px;
+                margin: 30px;
+            }
+            .skills-2 img{
+                margin: 20px 10px 0 0;
+            }
+            .skills-2 p{
+                margin: 20px 20px 0 0;
+                font-size: 20px;
+              
+            } 
+            .texts{
+            display: none;
+            }
+            #projects{
+                height: fit-content;
+            }
+            .projects-text h2{
+                font-size: 30px;
+            }
+            .project-images{
+                text-align: center;
+                display: block;
+                justify-content: center;
+                height: fit-content;
+            }
+            .project-images img{
+                height: 320px;
+                border-radius: 15px;
+            margin: 30px;    
+            }
+            .project-images2{
+                text-align: center;
+                display: block;
+                height: fit-content;
+            }
+            .project-images2 img{
+               
+                height: 320px;
+                border-radius: 10px;
+            margin: 30px;    
+            }
+      
+
+}
+
+
+
+
+
+
+
+
+
+
+@media  (min-width:1025px) and (max-width:1200px){
+
+    .hamburger{
+        display: none;
+    }
+    .logo{
+        margin-left: 50px;
+    }
+    .logo h1{
+        font-size: 60px;
+    }
+    .logo p{
+        font-size: 35px;
+        margin-top: 20px;
+    }
+    .nav-menu a{
+        font-size: 20px;
+        margin-right: 40px;
+    }
+    .nav-menu{
+        margin-right: 40px;
+    }
+    .center-texts{
+        padding-top: 1%;
+    }
+   
+        .center-texts p{
+            font-size: 60px;
+            margin-bottom: 0;
+            font-family: Verdana, Geneva, Tahoma, sans-serif;
+        
+        }
+        .center-texts h4{
+        font-size: 35px;
+        opacity: 0.6;
+        }
+        .icons{
+            padding: 5%;
+        }
+        .icons i{
+        font-size: 40px;
+        margin-right: 40px;
+        }
+        .about{
+            padding-top: 7%;
+        }
+        .about img{
+            width: 400px;
+            border-radius: 15px;
+            left: 70px;
+            margin-top: 45px;
+            }
+            .about p{
+            padding-bottom: 5%;
+            }
+            .about h5{
+                font-size: 20px;
+            
+            margin-left: 480px;
+            margin-top: 100px;
+            
+            }
+            .skills h3{
+                font-size: 45px;
+            }
+            .skills-2{
+                width: fit-content;
+            height: 110px;
+            width: 350px;
+            margin: 0 auto;
+            background-color: #31374b;
+            
+            }
+            .skillspic{
+                padding-top: 3%;
+                display: block;
+                text-align: center;
+            }
+            .skillspic img{
+                width: 250px;
+                margin: 30px;
+            }
+            .skills-2 img{
+                margin: 20px 10px 0 0;
+            }
+            .skills-2 p{
+                margin: 20px 20px 0 0;
+                font-size: 20px;
+              
+            } 
+            .texts{
+            display: none;
+            }
+          
+            .projects-text h2{
+                font-size: 40px;
+                padding-bottom: 5%;
+            }
+            .project-images{
+                display: flex;
+                justify-content: center;
+                height: fit-content;
+                padding-bottom: 3%;
+            }
+            .project-images img{
+                height: 160px;
+                border-radius: 10px;
+            margin: 10px;    
+            }
+            .project-images2{
+                display: flex;
+                justify-content: center;
+                height: fit-content;
+            }
+            .project-images2 img{
+                height: 160px;
+                border-radius: 10px;
+            margin: 10px;    
+            }
+
+}
+
+
+
+
+
+
+
+
+
+    @media  (min-width:1200px){
+
+        
+    .hamburger{
+        display: none;
+    }
+    .logo{
+        margin-left: 70px;
+    }
+    .logo h1{
+        font-size: 80px;
+    }
+    .logo p{
+        font-size: 45px;
+        margin-top: 20px;
+    }
+    .nav-menu a{
+        font-size: 20px;
+        margin-right: 50px;
+    }
+    .nav-menu{
+        margin-right: 70px;
+    }
+    .about{
+        padding-top: 7%;
+    }
+    .about img{
+        width: 400px;
+        border-radius: 15px;
+        left: 150px;
+        margin-top: 45px;
+        }
+        .about p{
+        padding-bottom: 5%;
+        }
+        .about h5{
+            font-size: 24px;
+        
+        margin-left: 560px;
+        margin-top: 100px;
+        
+        }
+   
+    .skills-2{
+        width: fit-content;
+    height: 110px;
+    width: 350px;
+    margin: 0 auto;
+    background-color: #31374b;
+    
+    }
+    .skillspic{
+        padding-top: 3%;
+        display: block;
+        text-align: center;
+    }
+    .skillspic img{
+        width: 250px;
+        margin: 30px;
+    }
+   
+    .skills-2 p{
+        margin: 25px 20px 0 0;
+        font-size: 20px;
+      
+    } 
+    .texts{
+    display: none;
+    }
+    .projects-text{
+        padding-top: 5%;
+    }
+    .projects-text h2{
+        font-size: 40px;
+        padding-bottom: 2%;
+    }
+    .project-images{
+        display: flex;
+        justify-content: center;
+        height: fit-content;
+        padding-bottom: 2%;
+    }
+    .project-images img{
+        height: 180px;
+        border-radius: 15px;
+    margin: 20px;    
+    }
+    .project-images2{
+        display: flex;
+        justify-content: center;
+        height: fit-content;
+    }
+    .project-images2 img{
+        height: 180px;
+        border-radius: 10px;
+    margin: 20px;    
+    }
+        
+    
+}
+
+
+
+
+
+@media (min-width:770px){
+    .hamburger{
+        display: none;
+    }
+}
+    
+
+
+
+
+
+
+
+@media  (min-width:769px){
+    .hamburger{
+        display: none;
+    }
+    .fa-solid{
+        display: none;
+    }
+}
+
+    
+
+@media  (max-width:768px){
+    .fa-solid{
+      display: block;
+      color: white;
+  
+    }
+    .hamburger{
+        font-size: 26px;
+    }
+   
+    .nav-menu{
+  position: absolute;
+  left: -100%;
+  top: 80px;
+  transition: 0.5s;
+  width: 100%;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+   .nav-links{
+    position: relative;
+    left: 110px;
+    margin: 10px 0;
+    display: block;
+    opacity: 0.8;
+   }
+    .nav-menu.active{
+      left: 0;
+    }
+   
+  }
+
+ 
+    
+  
+    
+
+
+
+
+
+
+
+
+
+    
